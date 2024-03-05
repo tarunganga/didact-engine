@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="7.0.8" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.8">
@@ -31,7 +30,7 @@
 
   <ItemGroup>
     <Reference Include="DidactCore">
-      <HintPath>..\..\didact-core\DidactCore\bin\Debug\netstandard2.1\DidactCore.dll</HintPath>
+      <HintPath>..\..\didact-core\DidactCore\bin\Release\netstandard2.1\DidactCore.dll</HintPath>
     </Reference>
   </ItemGroup>
 
